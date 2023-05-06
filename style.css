@@ -1,0 +1,61 @@
+* {
+  padding: 0%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  position: absolute;
+  top: 5rem;
+  left: 10%;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 30%;
+  height: 70%;
+  padding: 2rem;
+}
+.completed:checked + .to-do {
+  background: rgb(207, 205, 205);
+  text-decoration: line-through;
+}
+.to-do {
+  font-size: 15px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+#add-btn {
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 8px;
+  background: rgb(50, 243, 179);
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#add-btn:hover {
+  background: rgb(133, 238, 201);
+}
+#add-btn:active {
+  background: rgb(86, 196, 159);
+}
+
+#charotcharot {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  background: black;
+  max-width: 18rem;
+  left: 80rem;
+  top: 23rem;
+  text-align: end;
+}
+.ngalan {
+  font-size: 18px;
+}
+.pic {
+  z-index: -1;
+  position: absolute;
+  left: 60rem;
+  top: 15rem;
+  border-radius: 8px;
+}
